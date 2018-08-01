@@ -1,4 +1,4 @@
-<h1> Tourist_movement </h1>
+<h1> Tourist movement </h1>
 
 <p> Simulation of tourist movement in Cracow <p>
 
