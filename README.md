@@ -7,4 +7,4 @@
 <p>this app is connected to REST API and MongoDB</p>
 
 
-<a href="https://tourist-movement.stackblitz.io">Here you find static version of app</a>
+<a href="https://tourist-movement.stackblitz.io">Here you find a static version of app</a>
