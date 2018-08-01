@@ -1,5 +1,5 @@
 <h1> Tourist_movement </h1>
 
-<h2> Simulation of tourist movement in Cracow </h2>
+<p> Simulation of tourist movement in Cracow <p>
 
 https://tourist-movement.stackblitz.io
