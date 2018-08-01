@@ -126,21 +126,11 @@ module.exports = function(Geojson) {
     Geojson.remoteMethod('geojson',{
         http: {path:'/geojson/:date' , verb: 'get'},
         accepts: [{arg: 'date', required:true, type: 'string', description: 'date'}],
-              //{arg: 'count', required:true, type: 'string', description: 'count'}],
-        //accepts: [{arg: 'id', required:true , type: 'string', description: 'POS id'},
-        //    {arg: 'type', required:true , type: 'string', description: 'Notification type'},
-            //{arg: 'req', type: 'object', http: {source:'req'}}],
         returns: [{arg: 'models', type:'array', description: 'status of this operation', root: true}],
         
     });
     Geojson.remoteMethod('addSourdeToDB',{
       http: {path:'/addSourdeToDB' , verb: 'get'},
       accepts: [{arg: 'req', type: 'object', http: {source:'req'}}],
-            //{arg: 'count', required:true, type: 'string', description: 'count'}],
-      //accepts: [{arg: 'id', required:true , type: 'string', description: 'POS id'},
-      //    {arg: 'type', required:true , type: 'string', description: 'Notification type'},
-          //],
-      //returns: [{arg: 'data', type:'array', description: 'status of this operation', root: true}],
-      
     });
 };
