@@ -1,0 +1,216 @@
+.map-overlay {
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 20%;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  margin-top: 50px;
+  z-index: 999;
+}
+::selection{
+  background-color: transparent;
+}
+.hide {
+  display: none;
+ }
+#baner h2{
+  font-size: 2.5vw;
+}
+#lnglatbar{
+  cursor: default;
+}
+h2{
+  font-size: 1.8vw;
+  cursor: default;
+}
+#baner p{
+font-size: 1.2vw;
+  width:80%;
+  float: right;
+}
+#baner div img{
+  width: 12%;
+  padding:5px;
+  height: 30px;
+}
+#baner div{
+  width: 100%;
+  overflow: hidden;
+}
+.map-overlay .map-overlay-inner {
+  background-color: #ECECEC;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.map-overlay h2 {
+  line-height: 50px;
+  display: block;
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.map-overlay h2:hover{
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+}
+p{
+  text-align: center;
+  display:block;
+  width: 25%;
+  float: left;  
+  font-size: 24px;
+  background-color: lightgray;
+  padding:5px;
+  margin:1px;
+}
+#pl:hover{
+  background-color: red;
+  color: white;
+  cursor:pointer;
+  transition:0.2s;
+}
+#ru:hover{
+  background-color: orange;
+  color: white;
+  cursor:pointer;
+  transition:0.2s;
+}
+#de:hover{
+  background-color: blue;
+  color: white;
+  cursor:pointer;
+  transition:0.2s;
+}
+#en:hover{
+  background-color: green;
+  color: white;
+  cursor:pointer;
+  transition:0.2s;
+}
+#baner2{
+  display: none;
+  z-index: 999;
+}
+#autoPlay{
+  text-align: center;
+}
+@media (max-width:1130px) {
+  #baner p{
+    font-size: 1.2vw;
+    width:100%;
+    float: none;
+  }
+}
+@media (max-width:1650px) {
+  #baner div img{
+  width: 35px;
+  padding:5px;
+  height: 30px;
+  }
+}
+@media (max-width:700px) {
+  .map-overlay-inner, .map-overlay.top {
+    margin-right: 15px;
+    width: 140px;
+  }
+  h2{
+    font-size: 100%;
+  }
+  #baner h2{
+    font-size: 150%;
+  }
+  #baner p{
+    font-size: 100%;
+  }
+}
+@media (max-width:500px) {
+  .map-overlay-inner2, .map-overlay2.top{
+    width: 105px;
+  }
+}
+@media(min-width:1200px){
+  #baner h2{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 28px;
+  }
+}
+/* Markers by day slider */
+.map-overlay2 {
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 25%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin-top: 50px;
+  z-index: 999;
+}
+.map-overlay2 .map-overlay-inner2 {
+  background-color: #ECECEC;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.map-overlay2 h2 {
+  line-height: 24px;
+  display: block;
+  margin: 0 0 10px;
+}
+.map-overlay2 .legend .bar {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(to right, #FCA107, #7F3121);
+}
+.map-overlay2 input {
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  cursor: ew-resize;
+}
+#btn{
+  color: lightblue;
+  text-align: center;
+  padding: 3px;
+  cursor:pointer;
+}
+#btn:hover{
+  color: white;
+  background-color: lightgray;
+} 
+#Play{
+  width: 25%;
+  float: right;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+#Play:hover{
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+}
+@media (max-width:700px) {
+  .map-overlay2 {
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 25%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  #Play{
+      width: 100%;
+      float: left;
+  }
+}
